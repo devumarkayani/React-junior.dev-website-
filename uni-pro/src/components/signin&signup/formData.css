@@ -1,0 +1,58 @@
+.form{
+  margin-top: 2px;
+    padding-top: 47px;
+    height: 800px;
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+.container{
+  
+  margin: 0 auto;
+  max-width: 700px;
+  
+  padding: 75px;
+  color: wheat;
+  box-shadow: rgba(189, 189, 182, 0.3)6px 15px 67px;
+  padding-top: 5pc;
+  background-color: #042c54;
+}
+* ::after,::before{
+  box-sizing: border-box;
+}
+.form-control{
+  display: block;
+  color: rgb(15, 7, 7);
+  width: 100%;
+  border-color: rgb(19, 12, 12);
+  font-size: 1rem;
+  background-clip: padding-box;
+  padding: 0.34rem 0.75rem;
+  font-weight: 400px;
+  border: 2px solid #04075c;
+  border-radius: 9px;
+  transition: border-color .15s ease-in-out,box-shadow .14s ease-in-out;
+}
+.form-btn button {
+  color: #f3dcdc;
+  background-color: rgba(134, 34, 30, 0.904);
+  cursor: pointer;
+  width: 250px;
+  border: 2px solid black;
+  font-size:22px;
+  border-radius: 9px;
+}
+.registration-text  a{
+  color: orangered;
+  
+}

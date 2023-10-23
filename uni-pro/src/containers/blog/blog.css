@@ -1,0 +1,52 @@
+.gpt3__blog {
+    display: flex;
+    margin-top: 2px;
+    flex-direction: column;    
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+.gpt3__blog-heading {
+    width: 100%;
+    text-align: left;
+    color: darkslateblue;
+
+    margin-bottom: 5rem;
+}
+
+.gpt3__blog-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+
+    font-weight: 800;
+}
+
+.gpt3__blog-container {
+    display: flex;
+    background-color: rgba(16, 4, 59, 0.712);
+    flex-direction: row;
+}
+
+.gpt3__blog-container_groupA {
+    flex: 0.75;
+    margin-right: 2rem;
+}
+
+.gpt3__blog-container_groupB {
+    flex: 1;
+ 
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
