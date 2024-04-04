@@ -2,7 +2,6 @@ This repo contains the source code and documentation powering react.dev.
 
 Getting started
 Prerequisites
-Git
 Node:  install node js in your local machine
 A clone of the react.dev repo on your local machine
 Installation
