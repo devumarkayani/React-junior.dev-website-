@@ -4,9 +4,9 @@ import './register.css'
  
 const Url = 'localhost:1000'
 function Register() {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [ password, setPassword] = useState('');
+    const [name, setName] = useState('Enter the name ');
+    const [email, setEmail] = useState('@email.com');
+    const [ password, setPassword] = useState('Use Unique password');
     const [ con_password, setCon_Password] = useState('');
     const HandleSubmit = (e) => {
 
