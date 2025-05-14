@@ -1,0 +1,7 @@
+.brand_section{
+    background-color: rgb(28, 28, 65);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-evenly;
+}

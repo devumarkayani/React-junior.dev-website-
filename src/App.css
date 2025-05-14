@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+    
+}
+ body{
+    background:rgb(90, 93, 236)
+ }
+ a{
+    color: unset;
+    text-decoration: none;
+ }
+ .gradient__bg {
+   background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ 
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+ }
+ .gradient__text{
+   background: rgb(109, 111, 236);
+   background-clip: text;
+   -webkit-background-clop:text;
+   -webkit-text-fill-color: transparent;
+ }
+ .section__padding   {
+   padding: 4rem 6rem;
+
+ }
+ .section__margin{
+   margin: 4rem 6rem;
+ }
+ .slide-fwd-center {
+	-webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-fwd-center {
+   0% {
+     -webkit-transform: translateZ(0);
+             transform: translateZ(0);
+   }
+   100% {
+     -webkit-transform: translateZ(160px);
+             transform: translateZ(160px);
+   }
+ }
+ @keyframes slide-fwd-center {
+   0% {
+     -webkit-transform: translateZ(0);
+             transform: translateZ(0);
+   }
+   100% {
+     -webkit-transform: translateZ(160px);
+             transform: translateZ(160px);
+   }
+ } 
+ @media screen  and (max-width:750px) {
+   .section__padding{
+      padding: 4rem;
+   }.section__margin{
+      margin: 4rem;
+   }
+   
+ }
+ @media screen  and (max-width:550px) {
+   .section__padding{
+      padding: 4rem 2rem;
+   }.section__margin{
+      margin: 4rem 2rem;
+   }
+   
+ }
+ 

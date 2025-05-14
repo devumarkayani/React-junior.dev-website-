@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+.navbar_link{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar_linkLogo{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.navbar_linkLogo img{
+    width: 62px;
+    height: 16px;
+}
+.navbar_linkContainer{
+    display: flex;
+    padding-left: 107px;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.navbar_linkSign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+p{
+    padding-right: 1.5rem;
+    color: #fff;
+    justify-content: space-between;
+}
+.navbar_linkContainer p ,
+.navbar_linkSign p ,
+.navbar_menuContainer p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.navbar_sign{
+    display: flex;
+    flex-direction: row;
+}
+.navbar_sign  button   
+{
+  padding: 0.2rem 0.8rem;
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  
+  color: #fff;
+  background-color: red;
+  font-size: 18px;
+  line-height: 25px;
+  left: 1153px;
+  font-weight: 500;
+  top: 55;
+  border-radius: 5px;
+}
+@media screen  and  (max-width:600) {
+    .navbar{
+  display: flex;
+  flex-direction: column;
+
+}
+.navbar_linkContainer{
+    display: flex;
+    flex-direction: column;
+}
+}
