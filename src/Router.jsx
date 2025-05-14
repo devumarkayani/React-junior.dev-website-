@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
 import './index.css'
-import {  Routes, Route, git  BrowserRouter } from 'react-router-dom'
+import {  Routes, Route, BrowserRouter } from 'react-router-dom'
 import { Navbar,Brand} from './components';
 import {Blog,Footer,Header,Possibility,WhatGPT, Features} from './containers'
 // import { BrowserRouter , Routes,Route } from 'react-router-dom';
-import Notgit found from './components/notfound/Notfound';
+import Notfound from './components/notfound/Notfound';
 import FormData from './components/signin&signup/formData';
 import Register from './components/signin&signup/Register';
 function Router() {
